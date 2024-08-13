@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\AssessmentApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BAA0F9-BC2D-475D-ADB1-35FD48F9BA89}|AssessmentApi\\AssessmentApi.csproj|c:\\projects\\assessmentapi\\assessmentapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BAA0F9-BC2D-475D-ADB1-35FD48F9BA89}|AssessmentApi\\AssessmentApi.csproj|solutionrelative:assessmentapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BAA0F9-BC2D-475D-ADB1-35FD48F9BA89}|AssessmentApi\\AssessmentApi.csproj|c:\\projects\\assessmentapi\\assessmentapi\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BAA0F9-BC2D-475D-ADB1-35FD48F9BA89}|AssessmentApi\\AssessmentApi.csproj|solutionrelative:assessmentapi\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BAA0F9-BC2D-475D-ADB1-35FD48F9BA89}|AssessmentApi\\AssessmentApi.csproj|c:\\projects\\assessmentapi\\assessmentapi\\service\\backendapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BAA0F9-BC2D-475D-ADB1-35FD48F9BA89}|AssessmentApi\\AssessmentApi.csproj|solutionrelative:assessmentapi\\service\\backendapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BAA0F9-BC2D-475D-ADB1-35FD48F9BA89}|AssessmentApi\\AssessmentApi.csproj|c:\\projects\\assessmentapi\\assessmentapi\\models\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BAA0F9-BC2D-475D-ADB1-35FD48F9BA89}|AssessmentApi\\AssessmentApi.csproj|solutionrelative:assessmentapi\\models\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BAA0F9-BC2D-475D-ADB1-35FD48F9BA89}|AssessmentApi\\AssessmentApi.csproj|c:\\projects\\assessmentapi\\assessmentapi\\controllers\\directionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BAA0F9-BC2D-475D-ADB1-35FD48F9BA89}|AssessmentApi\\AssessmentApi.csproj|solutionrelative:assessmentapi\\controllers\\directionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Projects\\AssessmentApi\\AssessmentApi\\Models\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "AssessmentApi\\Models\\WeatherForecast.cs",
+              "ToolTip": "C:\\Projects\\AssessmentApi\\AssessmentApi\\Models\\WeatherForecast.cs",
+              "RelativeToolTip": "AssessmentApi\\Models\\WeatherForecast.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:23:05.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DirectionsController.cs",
+              "DocumentMoniker": "C:\\Projects\\AssessmentApi\\AssessmentApi\\Controllers\\DirectionsController.cs",
+              "RelativeDocumentMoniker": "AssessmentApi\\Controllers\\DirectionsController.cs",
+              "ToolTip": "C:\\Projects\\AssessmentApi\\AssessmentApi\\Controllers\\DirectionsController.cs",
+              "RelativeToolTip": "AssessmentApi\\Controllers\\DirectionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:44:15.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Projects\\AssessmentApi\\AssessmentApi\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "AssessmentApi\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Projects\\AssessmentApi\\AssessmentApi\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "AssessmentApi\\Controllers\\WeatherController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:22:10.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BackEndApi.cs",
+              "DocumentMoniker": "C:\\Projects\\AssessmentApi\\AssessmentApi\\Service\\BackEndApi.cs",
+              "RelativeDocumentMoniker": "AssessmentApi\\Service\\BackEndApi.cs",
+              "ToolTip": "C:\\Projects\\AssessmentApi\\AssessmentApi\\Service\\BackEndApi.cs",
+              "RelativeToolTip": "AssessmentApi\\Service\\BackEndApi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:39:55.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Projects\\AssessmentApi\\AssessmentApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "AssessmentApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Projects\\AssessmentApi\\AssessmentApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "AssessmentApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T21:07:23.217Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

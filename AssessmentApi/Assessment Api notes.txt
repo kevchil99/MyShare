@@ -1,0 +1,15 @@
+Assessment Api
+
+Description: Created a main controller (WeatherForecastController) to call 2 backend controllers (DirectionsController, WeatherController)
+
+Used the WebApi template from Visual Studio, that is why the objects being used are related to the Weather. Updated the class to handle with JSON.
+
+To run, open with Visual Studio and hit (ctrl + f5), this will start the program and should result in the browser opening Swagger, which the APIs can be tested there.
+
+WeatherForecast is the main controller and excutes the 2 other API
+The Get verb returns the Poll Directions List
+The Post verb returns the Weather List
+This was done so that results can be seen after executing the 2 APIs. Add a delay to the first API call.
+
+Using Framework .NET 8.0
+Also included Newtonsodt.Json (13.0.3) to hanlde parsing
