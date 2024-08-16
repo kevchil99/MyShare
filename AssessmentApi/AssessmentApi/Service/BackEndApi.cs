@@ -5,10 +5,13 @@ namespace AssessmentApi.Service
 {
     public class BackEndApi
     {
-        public async Task<List<WeatherForecast?>> GetApi1()
+        public async Task<List<WeatherForecast>> GetApi1()
         {
             await Task.Delay(2000);
 
+            //actually need to put this in a single call to make sure single instance of client is used to avoid deadloacks
+            //TODO: -Use IHttpClientFactory to create and manage single instance of client to avoid deadlocks
+            
             var client = new HttpClient();
             var response = await client.GetAsync($"https://localhost:7113/Weather");
             response.EnsureSuccessStatusCode();
@@ -16,10 +19,10 @@ namespace AssessmentApi.Service
 
             var model = JsonConvert.DeserializeObject<List<WeatherForecast?>>(json);
 
-            return model;
+            return model; //return task ?? Task.FromResult(false); // convert to bool to handle null
         }
 
-        public async Task<List<PollDirection?>> GetApi2()
+        public async Task<List<PollDirection>> GetApi2()
         {
             var client = new HttpClient();
             var response = await client.GetAsync($"https://localhost:7113/Directions");

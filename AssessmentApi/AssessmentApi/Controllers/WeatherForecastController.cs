@@ -25,6 +25,7 @@ namespace AssessmentApi.Controllers
             await Task.WhenAll(api1, api2);
 
             // Retrieve the results.
+            //TODO: Depending in return aggregate response, create response handler
             var result1 = api2.Result;
 
             return result1;
@@ -41,6 +42,7 @@ namespace AssessmentApi.Controllers
             await Task.WhenAll(api1, api2);
 
             // Retrieve the results.
+            //TODO: Depending in return aggregate response, create response handler
             var result1 = api1.Result;
 
             return result1;

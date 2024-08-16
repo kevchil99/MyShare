@@ -13,3 +13,8 @@ This was done so that results can be seen after executing the 2 APIs. Add a dela
 
 Using Framework .NET 8.0
 Also included Newtonsodt.Json (13.0.3) to hanlde parsing
+
+ToDo Items:
+- Use IHttpClientFactory to create and manage single instance of client to avoid deadlocks
+- Handle null, which can mean rework type, return empty list, return bool and aggregate results into an object
+- Aggregate result
