@@ -9,7 +9,7 @@ namespace AssessmentApi.Service
         {
             await Task.Delay(2000);
 
-            //actually need to put this in a single call to make sure single instance of client is used to avoid deadloacks
+            //actually need to put this in a single call to make sure single instance of client is used to avoid deadlocks
             //TODO: -Use IHttpClientFactory to create and manage single instance of client to avoid deadlocks
             
             var client = new HttpClient();
