@@ -19,6 +19,7 @@ namespace AssessmentApi.Service
 
             var model = JsonConvert.DeserializeObject<List<WeatherForecast?>>(json);
 
+            //TODO handle null, which can mean rework type, return empty list, return bool and aggregate results into an object
             return model; //return task ?? Task.FromResult(false); // convert to bool to handle null
         }
 
