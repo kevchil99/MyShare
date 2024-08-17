@@ -1,4 +1,10 @@
+using AssessmentApi.Service;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+//builder.Services.AddHttpClient();
+builder.Services.AddHttpClient<IBackEndApiService, BackEndApiService>();
 
 // Add services to the container.
 

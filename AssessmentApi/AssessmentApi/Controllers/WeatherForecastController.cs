@@ -8,20 +8,22 @@ namespace AssessmentApi.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : Controller
     {
-        public BackEndApi backEndApi = new BackEndApi();
-
+        private readonly IBackEndApiService _backEndApiService;
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly IHttpClientFactory _httpClientFactory;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IHttpClientFactory httpClientFactory, IBackEndApiService backEndApiService)
         {
             _logger = logger;
+            _httpClientFactory = httpClientFactory;
+            _backEndApiService = backEndApiService;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
         public async Task<List<PollDirection>> Get()
         {
-            var api1 = backEndApi.GetApi1();
-            var api2 = backEndApi.GetApi2();
+            var api1 = _backEndApiService.GetApi1();
+            var api2 = _backEndApiService.GetApi2();
             await Task.WhenAll(api1, api2);
 
             // Retrieve the results.
@@ -37,8 +39,8 @@ namespace AssessmentApi.Controllers
         [HttpPost(Name = "PostWeatherForecast")]
         public async Task<List<WeatherForecast>> Post()
         {
-            var api1 = backEndApi.GetApi1();
-            var api2 = backEndApi.GetApi2();
+            var api1 = _backEndApiService.GetApi1();
+            var api2 = _backEndApiService.GetApi2();
             await Task.WhenAll(api1, api2);
 
             // Retrieve the results.
